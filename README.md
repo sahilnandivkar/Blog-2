@@ -1,2 +1,2 @@
-# Blog-2
-Blog-2
+# Logic Building
+Logic Building Blog
