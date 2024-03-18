@@ -1,0 +1,604 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sahil Nandivkar - Blog</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+</head>
+
+<body>
+    <div class="scroll-up-btn">
+        <i class="fas fa-angle-up"></i>
+    </div>
+    <nav class="navbar">
+        <div class="max-width">
+            <div class="logo"><a href="#"><span>DevJourney</span></a></div>
+            <ul class="menu">
+            </ul>
+
+        </div>
+    </nav>
+
+    <section class="home" id="home">
+        <div class="max-width">
+            <div class="home-content">
+                <div class="text-1">Building Logic for Programming</div>
+                <div class="text-2">Welcome To My Blog</div>
+            </div>
+    </section>
+
+    <section class="about" id="about">
+        <div class="max-width">
+            <h2 class="title">Logic Building</h2>
+            <div class="about-content">
+                <div class="column right">
+                    <div class="text" style="text-align: center; font-family: 'Ubuntu', sans-serif;">Unraveling Logic
+                        Building:<span class="typing-2"> Why It's Essential in Programming🖥️</span></div>
+                    <br>
+                    <p style="line-height: 1.5;">Hello, fellow readers! I hope you're doing well. In the previous blog,
+                        we discussed the frontend
+                        part. Today, we will dive into logic building. I'm going to introduce you to an interesting
+                        method to build and strengthen your programming skills.</p>
+                    <p style="line-height: 1.5;">In programming, logic isn't just a concept; it's the backbone of every
+                        line of code
+                        written. Whether you're a seasoned developer or just starting your journey in the world of
+                        programming, understanding the significance of logic building is crucial. In this blog post,
+                        we'll delve into why logic building is so essential in programming and how it shapes the way we
+                        approach problem-solving, algorithm design, debugging, and more.</p>
+
+                    <br>
+                    <p><b style="font-family: 'Ubuntu', sans-serif; line-height: 1.5;">Problem Solving:</b>
+                        At its core, programming is about solving problems. Logic building empowers programmers to
+                        dissect complex problems into manageable pieces, enabling them to devise effective solutions.
+                        It's akin to solving a puzzle; the better you are at logic building, the quicker you can piece
+                        together the solution.</p>
+
+                    <br>
+                    <p><b style="font-family: 'Ubuntu', sans-serif; line-height: 1.5;">Algorithm Design:</b>
+                        Algorithms serve as the blueprints for solving specific tasks or problems. Logic building is the
+                        cornerstone of algorithm design, allowing programmers to create step-by-step procedures that are
+                        not only correct but also efficient and maintainable. Whether it's sorting data, searching for
+                        information, or processing inputs, logical thinking underpins the entire algorithmic process.
+                    </p>
+
+                    <br>
+                    <p><b style="font-family: 'Ubuntu', sans-serif; line-height: 1.5;">Debugging:</b>
+                        Bugs are the bane of every programmer's existence. Logic building plays a pivotal role in
+                        debugging, helping programmers identify and resolve errors in their code. By logically analyzing
+                        the code flow and understanding the expected behavior, programmers can pinpoint the root cause
+                        of issues and implement the necessary fixes with precision.</p>
+
+                    <br>
+                    <p><b style="font-family: 'Ubuntu', sans-serif; line-height: 1.5;">Optimization:</b>
+                        Efficiency matters in programming, and logic building facilitates optimization. By comprehending
+                        the underlying logic of algorithms and data structures, programmers can identify opportunities
+                        to streamline their code for better performance. Whether it's reducing computational complexity,
+                        minimizing memory usage, or enhancing execution speed, logical thinking guides the optimization
+                        process.</p>
+
+                    <br>
+                    <p><b style="font-family: 'Ubuntu', sans-serif; line-height: 1.5;">Understanding Programming
+                            Constructs:</b>
+                        Programming languages are replete with logical constructs such as conditions, loops, functions,
+                        and data structures. Mastery of these constructs hinges on a solid foundation in logic. With a
+                        keen understanding of logic, programmers can leverage these constructs effectively to build
+                        robust and scalable software applications.</p>
+
+                    <br>
+                    <p><b style="font-family: 'Ubuntu', sans-serif; line-height: 1.5;">Critical Thinking:</b>
+                        Logic building fosters critical thinking skills, a prerequisite for evaluating and improving
+                        code. Programmers must critically analyze their own code and that of others, identifying
+                        potential issues, proposing enhancements, and making informed decisions. It's this ability to
+                        think critically that separates good programmers from great ones.</p>
+
+                    <br>
+                    <p><b style="font-family: 'Ubuntu', sans-serif; line-height: 1.5;">Adaptability:</b>
+                        In the ever-evolving landscape of technology, adaptability is paramount. Logic building equips
+                        programmers with the flexibility to transition seamlessly between programming languages,
+                        paradigms, and technologies. Once you grasp the logic behind programming concepts, you can apply
+                        that knowledge across different platforms and languages, making it easier to learn and master
+                        new technologies.</p>
+
+                    <br>
+                    <p>If you recall from my first blog, I mentioned the practice of writing down code in a book. Today,
+                        we'll cover how you can build logic using this approach. You may have heard about patterns such
+                        as different shapes like circles, triangles, etc. In programming languages, we can create
+                        patterns using loops.</p>
+
+                    <p>But first, let's cover a small yet important topic called <b
+                            style="color: #e93d27; font-family: 'Ubuntu', sans-serif; line-height: 1.5;">Operators</b> :
+                    </p>
+                    <br>
+                    <p><b style="color: #e93d27; font-family: 'Ubuntu', sans-serif; line-height: 1.5;">Operators</b> are
+                        special symbols
+                        that perform operations on variables and values. Java
+                        supports a
+                        variety of operators, which can be classified into several categories:</p>
+                    <br>
+                    <table border="1">
+                        <caption><b style="font-family: 'Ubuntu', sans-serif; color: #000;">Arithmetic Operators: These
+                                operators are used to perform basic mathematical
+                                operations.
+                            </b></caption>
+                        <tr>
+                            <td>Addition</td>
+                            <td>+</td>
+                        </tr>
+                        <tr>
+                            <td>Subtraction</td>
+                            <td>-</td>
+                        </tr>
+                        <tr>
+                            <td>Multiplication</td>
+                            <td>*</td>
+                        </tr>
+                        <tr>
+                            <td>Division</td>
+                            <td>/</td>
+                        </tr>
+                        <tr>
+                            <td>Modulus (Remainder)</td>
+                            <td>%</td>
+                        </tr>
+                        <tr>
+                            <td>Increment</td>
+                            <td>++</td>
+                        </tr>
+                        <tr>
+                            <td>Decrement</td>
+                            <td>--</td>
+                        </tr>
+                    </table>
+
+                    <table border="1">
+                        <caption><b style="font-family: 'Ubuntu', sans-serif; color: #000;">Assignment Operators: These
+                                operators are used to assign values to variables.</b>
+                        </caption>
+                        <tr>
+                            <td>Assignment</td>
+                            <td>=</td>
+                        </tr>
+                        <tr>
+                            <td>Addition assignment</td>
+                            <td>+=</td>
+                        </tr>
+                        <tr>
+                            <td>Subtraction assignment</td>
+                            <td>-=</td>
+                        </tr>
+                        <tr>
+                            <td>Multiplication assignment</td>
+                            <td>*=</td>
+                        </tr>
+                        <tr>
+                            <td>Division assignment</td>
+                            <td>/=</td>
+                        </tr>
+                        <tr>
+                            <td>Modulus assignment</td>
+                            <td>%=</td>
+                        </tr>
+                    </table>
+
+                    <table border="1">
+                        <caption><b style="font-family: 'Ubuntu', sans-serif; color: #000;">Comparison Operators: These
+                                operators are used to compare two values.</b></caption>
+                        <tr>
+                            <td>Equal to</td>
+                            <td>==</td>
+                        </tr>
+                        <tr>
+                            <td>Not equal to</td>
+                            <td>!=</td>
+                        </tr>
+                        <tr>
+                            <td>Greater than</td>
+                            <td>&gt;</td>
+                        </tr>
+                        <tr>
+                            <td>Less than</td>
+                            <td>&lt;</td>
+                        </tr>
+                        <tr>
+                            <td>Greater than or equal to</td>
+                            <td>&gt;=</td>
+                        </tr>
+                        <tr>
+                            <td>Less than or equal to</td>
+                            <td>&lt;=</td>
+                        </tr>
+                    </table>
+
+                    <table border="1">
+                        <caption><b style="font-family: 'Ubuntu', sans-serif; color: #000;">Logical Operators: These
+                                operators are used to perform logical operations.</b>
+                        </caption>
+                        <tr>
+                            <td>Logical AND</td>
+                            <td>&amp;&amp;</td>
+                        </tr>
+                        <tr>
+                            <td>Logical OR</td>
+                            <td>||</td>
+                        </tr>
+                        <tr>
+                            <td>Logical NOT</td>
+                            <td>!</td>
+                        </tr>
+                    </table>
+
+                    <table border="1">
+                        <caption><b style="font-family: 'Ubuntu', sans-serif; color: #000;">Bitwise Operators: These
+                                operators are used to perform bit-level manipulation.</b>
+                        </caption>
+                        <tr>
+                            <td>Bitwise AND</td>
+                            <td>&amp;</td>
+                        </tr>
+                        <tr>
+                            <td>Bitwise OR</td>
+                            <td>|</td>
+                        </tr>
+                        <tr>
+                            <td>Bitwise XOR</td>
+                            <td>^</td>
+                        </tr>
+                        <tr>
+                            <td>Bitwise complement</td>
+                            <td>~</td>
+                        </tr>
+                        <tr>
+                            <td>Left shift</td>
+                            <td>&lt;&lt;</td>
+                        </tr>
+                        <tr>
+                            <td>Right shift</td>
+                            <td>&gt;&gt;</td>
+                        </tr>
+                        <tr>
+                            <td>Unsigned right shift</td>
+                            <td>&gt;&gt;&gt;</td>
+                        </tr>
+                    </table>
+
+                    <table border="1">
+                        <caption><b style="font-family: 'Ubuntu', sans-serif; color: #000;">Miscellaneous Operators:
+                                These operators are used for various purposes.</b>
+                        </caption>
+                        <tr>
+                            <td>Member Access Operator</td>
+                            <td>.</td>
+                        </tr>
+                        <tr>
+                            <td>Method Reference Operator</td>
+                            <td>::</td>
+                        </tr>
+                        <tr>
+                            <td>Array Access Operator</td>
+                            <td>[]</td>
+                        </tr>
+                        <tr>
+                            <td>Parentheses for grouping and method invocation</td>
+                            <td>()</td>
+                        </tr>
+                    </table>
+
+                    <br>
+                    <p style="line-height: 1.5;">These operators form the backbone of Java's syntax, allowing developers
+                        to perform various
+                        operations and control flow in their programs.</p>
+                    <br>
+                    <p style="font-family: 'Ubuntu', sans-serif; font-weight: 600;">If you want to know about operators
+                        in detail</p>
+                    <a class="button-link" style="margin-top: 2%;"
+                        href="https://www.geeksforgeeks.org/operators-in-java/">Click here</a>
+
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="about" id="about">
+        <div class="max-width">
+            <div class="about-content">
+                <div class="column right">
+                    <div class="text" style="text-align: center;">Pattern: <span class="typing-2">Using Loops</span>
+                    </div>
+                    <br>
+                    <p style="line-height: 1;">Now, a question might arise: What is a loop? In general definition, a
+                        series of repetitive
+                        actions is called a loop. There are four types of loops in programming:</p>
+                    <br>
+                    <table>
+                        <tr>
+                            <td style="background-color: #ffd8c0; text-align: center;">For loop</td>
+                            <td style="background-color: #FFE5D9; text-align: center;">While loop</td>
+                        </tr>
+                        <tr>
+                            <td style="background-color: #FFE5D9; text-align: center;">Do-while loop</td>
+                            <td style="background-color: #ffd8c0; text-align: center;">Enhanced for loop</td>
+                        </tr>
+                    </table>
+
+                    <br>
+                    <p>We will cover all these loops in-depth soon, but for now, let's consider the first loop, which is
+                        the <b style="color: #e93d27; line-height: 1.5;">'For loop'</b>.</p>
+
+                    <br>
+                    <p><b style="color: #e93d27; line-height: 1.5;">For Loop:</b> The for loop is commonly used when you
+                        know the number
+                        of iterations in advance. It
+                        consists of three parts: initialization, condition, and iteration expression. In simple terms,
+                        we use a for loop when we know in advance how many times we want to repeat a task.</p>
+                    <br>
+                    <div class="response-container">
+                        <div class="response-loop">
+                            <p
+                                style="text-align: left; font-family: 'Ubuntu', sans-serif; color: #000; font-weight: 800;">
+                                For example, if I want to create a simple pattern like:</p>
+                            <br>
+                            <p
+                                style="text-align: center; font-family: 'Courier New', monospace; letter-spacing: 5px; font-weight: 600;">
+                                12345</p>
+                            <p
+                                style="text-align: center; font-family: 'Courier New', monospace; letter-spacing: 5px; font-weight: 600;">
+                                12345</p>
+                            <p
+                                style="text-align: center; font-family: 'Courier New', monospace; letter-spacing: 5px; font-weight: 600;">
+                                12345</p>
+                        </div>
+                    </div>
+                    <br>
+                    <p style="line-height: 1.5;">You will notice a repetitive action in the above pattern. It starts,
+                        which means 'initializes',
+                        from 1 and iterates, which means 'increments', until 5, then it shifts to a new row and again
+                        starts from 1, increments till 5, and then shifts to the 3rd row. Now, there has to be some
+                        condition which is telling to stop iteration at 5 and also of shifting to a new line. Let's see
+                        how this is working:</p>
+                    <br>
+                    <div class="pattern-container">
+                        <pre class="pattern">
+                            <p style="font-family: 'Ubuntu', sans-serif; text-align: center; font-weight: 600; font-size: larger;">Java Code for Above Pattern</p>
+                    public class Pattern {
+                        public static void main(String[] args) {
+                            for (int i = 1; i <= 3; i++) {     <-------------  Working for rows/ Outer Loop
+                                for (int j = 1; j <= 5; j++) { <-------------  Working for columns/ Inner loop
+                                    System.out.print(j);       <-------------  To print columns or values of j
+                                }
+                                System.out.println();          <-------------  To shift on a new row
+                            }
+                        }
+                    }
+                            </pre>
+                    </div>
+                    <br>
+                    <div class="explanation" style="line-height: 1.8;">
+                        <p>This is a Java code for generating the above pattern.</p>
+                        <p>We have declared two variables: <code>i</code> and <code>j</code>.</p>
+                        <p>As shown, we are using two nested <code>for</code> loops.</p>
+                        <p>The outer loop (<code>i</code>) iterates over the rows, while the inner loop (<code>j</code>)
+                            iterates over the columns.</p>
+                        <p>Within the inner loop, <code>System.out.println();</code> is used to print the value of
+                            <code>j</code>.
+                        </p>
+                        <p>Following that, <code>System.out.println();</code> is used to move to a new line.</p>
+                        <br>
+                        <div class="explanation-1"
+                            style="font-family: 'Ubuntu', sans-serif; font-weight: 600; line-height: 1.5;">
+                            <p>Let's dive deeper into the process:</p>
+                            <br>
+                            <ul>
+                                <li>When the first loop initializes, <code>i</code> is assigned a value of 1.</li>
+                                <li>It then moves to the condition <code>i <= 3</code>. Since <code>i</code> is
+                                    initialized
+                                    as 1, the condition is true.</li>
+                                <li>Consequently, the program enters the inner loop (loop for <code>j</code>).</li>
+                                <li>Within this loop, <code>j</code> is initialized to 1. It then checks the condition
+                                    <code>j <= 5</code>, which is true as <code>j</code> is initially set to 1.
+                                </li>
+                                <li>The program prints the current value of <code>j</code>, which is 1.</li>
+                                <li>Subsequently, <code>j++</code> is executed, incrementing <code>j</code> to 2. The
+                                    condition <code>j <= 5</code> is still true, so the value 2 is printed.</li>
+                                <li>This process continues until <code>j</code> reaches 5. When <code>j</code> becomes
+                                    6,
+                                    the condition becomes false, and the loop exits. The program then moves to the next
+                                    line
+                                    using <code>System.out.println();</code>.</li>
+                                <li>The outer loop then increments <code>i</code>, making it 2, and the process repeats
+                                    until <code>i</code> becomes 4. However, when <code>i</code> becomes 4, the outer
+                                    loop
+                                    condition also becomes false, and the program stops.</li>
+                            </ul>
+                        </div>
+
+                        <br>
+                        <p style="font-weight: 500; padding: 2%;">Wasnt it intresting? Now i have one question for you
+                            since we print values of 'j' here what if
+                            I try to print rows means value of 'i'.</p>
+                        <button id="showOutputBtn">Click here to know the output</button>
+                        <div id="outputContainer" style="display: none;">
+                            <p
+                                style="text-align: center; font-family: 'Ubuntu', sans-serif; color: #000; font-weight: 800;">
+                                If your answer was this, congratulations! You were right.</p>
+                            <p
+                                style="text-align: center; font-family: 'Courier New', monospace; letter-spacing: 5px; font-weight: 600;">
+                                11111</p>
+                            <p
+                                style="text-align: center; font-family: 'Courier New', monospace; letter-spacing: 5px; font-weight: 600;">
+                                22222</p>
+                            <p
+                                style="text-align: center; font-family: 'Courier New', monospace; letter-spacing: 5px; font-weight: 600;">
+                                33333</p>
+                        </div>
+                    </div>
+
+                    <br>
+                    <p
+                        style="text-align: left; font-family: 'Ubuntu', sans-serif; font-weight: 600; text-align: center; font-size: larger; color: #e93d27;">
+                        Let's see one more pattern</p>
+
+                    <br>
+                    <div class="response-container">
+                        <div class="response-loop">
+                            <p
+                                style="text-align: left; font-family: 'Ubuntu', sans-serif; color: #000; font-weight: 800;">
+                                For example, if I want to create a pattern like:</p>
+                            <br>
+                            <p
+                                style="text-align: center; font-family: 'Courier New', monospace; letter-spacing: 5px; font-weight: 600;">
+                                1</p>
+                            <p
+                                style="text-align: center; font-family: 'Courier New', monospace; letter-spacing: 5px; font-weight: 600;">
+                                12</p>
+                            <p
+                                style="text-align: center; font-family: 'Courier New', monospace; letter-spacing: 5px; font-weight: 600;">
+                                123</p>
+
+                            <p
+                                style="text-align: center; font-family: 'Courier New', monospace; letter-spacing: 5px; font-weight: 600;">
+                                1234</p>
+
+                            <p
+                                style="text-align: center; font-family: 'Courier New', monospace; letter-spacing: 5px; font-weight: 600;">
+                                12345</p>
+                        </div>
+                    </div>
+
+                    <div class="pattern-containers">
+                        <pre>
+                                <p style="font-family: 'Ubuntu', sans-serif; text-align: center; font-weight: 800; font-size: larger;">Java Code for Above Pattern</p>
+                                public class Pattern {
+                                    public static void main(String[] args) {
+                                        for (int i = 1; i <= 5; i++) {
+                                            for(int j = 1; j <= 5 - i; j++) {
+                                                System.out.print(" ");
+                                            }
+                                            for(int k = 1; k <= i; k++) {
+                                                System.out.print(" " + k);
+                                            }
+                                            System.out.println();
+                                        }
+                                    }
+                                }
+                            </pre>
+                    </div>
+                    <br>
+                    <div class="description-container">
+                        <p>This Java program prints a pattern using nested loops. Let's analyze how it works:</p>
+                        <ul>
+                            <p>We have three nested loops: <code>i</code>, <code>j</code>, and <code>k</code>.</p>
+                            <p>The outer loop <code>i</code> controls the number of rows and iterates from 1 to 5.
+                            </p>
+                            <p>Inside the outer loop, the <code>j</code> loop is responsible for printing spaces
+                                based on the value of <code>i</code>, creating the triangular shape of the pattern.
+                            </p>
+                            <p>Then, the <code>k</code> loop prints numbers from 1 to the current value of
+                                <code>i</code>.
+                            </p>
+                            <p>After printing each row, a newline character is added to move to the next line.</p>
+                        </ul>
+                        <br>
+                        <p style="font-family: 'Ubuntu', sans-serif; font-weight: 600; line-height: 1.5;">Let's
+                            break down the execution of the program:</p>
+                        <ol style="font-family: 'Ubuntu', sans-serif; font-weight: 600; line-height: 1.5;">
+                            <br>
+                            <li>When <code>i = 1</code>:</li>
+                            <ul>
+                                <li>The <code>j</code> loop prints 4 spaces (because <code>5 - 1 = 4</code>)
+                                    followed by the number 1.</li>
+                            </ul>
+                            <li>When <code>i = 2</code>:</li>
+                            <ul>
+                                <li>The <code>j</code> loop prints 3 spaces (because <code>5 - 2 = 3</code>)
+                                    followed by the numbers 1 and 2.</li>
+                            </ul>
+                            <li>When <code>i = 3</code>:</li>
+                            <ul>
+                                <li>The <code>j</code> loop prints 2 spaces (because <code>5 - 3 = 2</code>)
+                                    followed by the numbers 1, 2, and 3.</li>
+                            </ul>
+                            <li>When <code>i = 4</code>:</li>
+                            <ul>
+                                <li>The <code>j</code> loop prints 1 space (because <code>5 - 4 = 1</code>) followed
+                                    by the numbers 1, 2, 3, and 4.</li>
+                            </ul>
+                            <li>When <code>i = 5</code>:</li>
+                            <ul>
+                                <li>The <code>j</code> loop does not print any spaces, and the <code>k</code> loop
+                                    prints numbers 1, 2, 3, 4, and 5.</li>
+                            </ul>
+                        </ol>
+                    </div>
+
+                    <br>
+                    <p>This is an interesting way to build logic in a programming language. I used Java code here
+                        since I have more command over Java. You can create these patterns in any language you're
+                        interested in, whether it's Python, C++, or your choice. Creating patterns will help you
+                        understand the flow of the code and how one thing is dependent on another to achieve the
+                        desired output. Try writing these codes in a book and create columns for every loop, noting
+                        their increment values like 'Row|1|Column|1', 'Row|1|Column|12', etc., for better
+                        understanding.</p>
+
+                    <br>
+                    <p style="font-family: 'Ubuntu', sans-serif; font-weight: 600;">Want to practice more patterns?</p>
+                    <a href="https://www.geeksforgeeks.org/java-pattern-programs/" class="button-link">Click here</a>
+                </div>
+
+            </div>
+
+        </div>
+    </section>
+
+    <section class="about" id="about">
+        <div class="max-width">
+            <div class="about-content">
+                <div class="column right">
+                    <div class="text" style="text-align: center;">
+                        <strong>Conclusion:</strong>
+                        <span class="typing-2">Key Learnings</span>
+                    </div>
+                    <br>
+                    <p style="line-height: 1.5;"><b>Understanding Iterative Logic:</b> Patterns in programming often involve nested loops, which
+                        provide a systematic approach to generating shapes or sequences. By grasping the concept of
+                        nested iterations, developers can create complex patterns efficiently.</p>
+                    <br>
+                    <p style="line-height: 1.5;"><b>Logic Visualization:</b> Writing code for patterns enhances logical thinking and
+                        problem-solving skills. Visualizing the pattern's structure, including row and column
+                        relationships, aids in translating the visual pattern into code.</p>
+                    <br>
+                    <p style="line-height: 1.5;"><b>Enhancing Algorithmic Skills:</b> Patterns serve as a practical exercise for refining
+                        algorithmic skills. They require breaking down complex problems into smaller, manageable steps,
+                        fostering algorithmic thinking and efficiency.</p>
+                    <br>
+                    <p style="line-height: 1.5;"><b>Debugging and Optimization:</b> Working on pattern-based exercises improves debugging
+                        proficiency and optimization techniques. Identifying errors in pattern generation and refining
+                        code for better performance contribute to overall coding competency.</p>
+                    <br>
+                    <p style="text-align: center; font-family: 'Ubuntu', sans-serif; font-size: larger; line-height: 1.5;">Thank you for your valuable
+                            time and for reading this blog. I hope you found it insightful. Feel free to
+                            provide feedback. Stay tuned for more
+                            tech-related blogs. See you in the next blog!</b></p>
+
+                    <br>
+                    <p style="color: #e93d27; text-align: center; font-family: 'Ubuntu', sans-serif; font-size: larger;"><b>Keep exploring! Happy Coding!</p>
+                    </b></p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="footer-content">
+            <p>All rights reserved to DevJourney &copy; 2024</p>
+        </div>
+    </footer>
+
+
+    <script src="script.js"></script>
+</body>
+
+</html>
